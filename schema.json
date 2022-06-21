@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "checklists": [125, 126, 127],
+      "completed": [45]
+    }
+  ],
+  "checklists": [
+    {
+      "id": 125,
+      "name": "IIT Kharagpur students checklist",
+      "description": "Things that one must experience while at IIT Kharagpur",
+      "todos": [45, 46, 47]
+    },
+    {
+      "id": 126,
+      "name": "India",
+      "description": "Things that one must experience while in India",
+      "todos": []
+    },
+    {
+      "id": 127,
+      "name": "Darjeeling",
+      "description": "Things that one must experience while in Darjeeling",
+      "todos": []
+    }
+  ],
+  "todos": {
+    "45": {
+      "id": 45,
+      "parent": 125,
+      "name": "Todo 1",
+      "up": 0,
+      "down": 0
+    },
+    "46": {
+      "id": 46,
+      "parent": 125,
+      "name": "Todo 2",
+      "up": 0,
+      "down": 0
+    },
+    "47": {
+      "id": 47,
+      "parent": 125,
+      "name": "Todo 3",
+      "up": 0,
+      "down": 0
+    }
+  }
+}
